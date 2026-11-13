@@ -1,0 +1,28 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.holder {
+  max-width: 960px;
+  margin: 0 auto;
+}
+h2 {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    main {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 10px;
+    }
+}
